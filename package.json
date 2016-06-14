@@ -1,0 +1,38 @@
+{
+    "author": "Pierre Clochard",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pebbletemp",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "PebbleTemp",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/perfect_dos",
+                    "name": "PERFECT_DOS_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "58757826-c416-4862-8042-754c8e4f9c02",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
